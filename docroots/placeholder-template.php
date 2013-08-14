@@ -21,7 +21,6 @@
         padding: 0;
     }
     .page-wrapper {
-        width: 550px;
         margin: 0 auto;
         clear: both;
         height: 126px;
