@@ -8,6 +8,8 @@ mysql5:
         - running
         - require:
             - pkg: mysql5
+        - watch:
+            - file: /etc/mysql/my.cnf
 
 python-mysqldb:
     pkg:
@@ -30,4 +32,10 @@ mysql-remote-access:
         - user: root
         - host: 192.168.200.%
         - require:
-            - pkg: mysql-root
+            - mysql_user: mysql-root
+
+/etc/mysql/my.cnf:
+    file.comment:
+        - regex: ^bind-address
+        - require:
+            - pkg: mysql5
