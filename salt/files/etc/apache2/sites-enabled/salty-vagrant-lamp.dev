@@ -1,4 +1,10 @@
 <VirtualHost *:80>
+    ServerName 192.168.200.10
+    ServerAlias salty-vagrant-lamp.dev
+    DocumentRoot /vagrant/docroots/salty-vagrant-lamp.dev
+</VirtualHost>
+
+<VirtualHost *:80>
     ServerName salty-vagrant-lamp.dev
     ServerAlias *
     VirtualDocumentRoot /vagrant/docroots/%0
