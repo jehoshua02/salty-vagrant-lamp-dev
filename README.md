@@ -3,6 +3,13 @@
 Example [Vagrant](http://docs.vagrantup.com/v2/why-vagrant/index.html) setup that uses [SaltStack](http://docs.saltstack.com/) to provision a [LAMP](http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) box for dev purposes.
 
 
+## Why?
+
+It's a platform-independent, version-controlled, repeatable, reproducible, shareable, customizeable, authentic 
+replacement for all the *AMP packages out there (if you are still wondering why, you are probably 
+[stupid and ugly](http://www.youtube.com/watch?feature=player_detailpage&v=4XpnKHJAok8&t=487)).
+
+
 ## Requirements
 
 + [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
