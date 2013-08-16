@@ -23,3 +23,25 @@ vagrant up
 The first run of `vagrant up` will take some time: the base box must be downloaded, a new vagrant box must be created 
 from the base box, salt must be installed in the vagrant box, and salt will then install and configure the LAMP stack. 
 The next time `vagrant up` is executed none of these things will need to be performed again.
+
+
+## Did it Work?
+
+If everything ran smoothly, you should be able to open `http://192.168.200.10` and see *something* other than an error 
+page. Ideally, the host name, full path of index file executed, and a list of hosts (which you can add to your hosts 
+file if you want).
+
+You should also be able to connect as `root`, password `root`, to `192.168.200.10` with your favorite MySql tool ([MySql Workbench](http://www.mysql.com/products/workbench/), [Sequel Pro](http://www.sequelpro.com/), or just the plain-old [cli client](http://dev.mysql.com/doc/refman/5.5/en/mysql.html))
+
+
+## Adding Hosts
+
+Adding hosts to the setup is simple, and it doesn't involve modifying any `VirtualHost` definitions or restarting
+Apache. It's only two step. For example, if the host being added were `dev.myhost.com`:
+
+1. Add a directory named `dev.myhost.com` in `docroots`.
+2. Add `192.168.200.10    dev.myhost.com` to your hosts file.
+
+Removing hosts is equally easy. Just delete the directory for the host. You probably want to remove the entry from 
+your hosts file too.
+
