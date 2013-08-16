@@ -41,7 +41,3 @@ Apache. It's only two step. For example, if the host being added were `dev.myhos
 
 1. Add a directory named `dev.myhost.com` in `docroots`.
 2. Add `192.168.200.10    dev.myhost.com` to your hosts file.
-
-Removing hosts is equally easy. Just delete the directory for the host. You probably want to remove the entry from 
-your hosts file too.
-
