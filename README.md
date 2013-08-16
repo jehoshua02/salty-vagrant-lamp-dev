@@ -1,6 +1,6 @@
 # salty-vagrant-lamp-dev
 
-Example vagrant setup that uses salt to provision a [LAMP](http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) box for dev purposes.
+Example [Vagrant](http://docs.vagrantup.com/v2/why-vagrant/index.html) setup that uses [SaltStack](http://docs.saltstack.com/) to provision a [LAMP](http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) box for dev purposes.
 
 
 ## Requirements
