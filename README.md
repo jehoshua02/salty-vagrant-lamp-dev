@@ -6,8 +6,9 @@ Example [Vagrant](http://docs.vagrantup.com/v2/why-vagrant/index.html) setup tha
 ## Why?
 
 It's a platform-independent, version-controlled, repeatable, reproducible, shareable, customizeable, authentic 
-replacement for all the *AMP packages out there (if you are still wondering why, you are probably 
-[stupid and ugly](http://www.youtube.com/watch?feature=player_detailpage&v=4XpnKHJAok8&t=487)).
+replacement for all the *AMP packages out there. I wanted something that was simple to setup and add new hosts.
+This is as simple as putting your docroot in the right place and dns config in your hosts file. No messing around
+with Apache VirtualHost files.
 
 
 ## Requirements
